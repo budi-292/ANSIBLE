@@ -2,7 +2,7 @@
   host: my_hosts
   become: true
       
-  tasks:
-    - name: add IP
-      debug:
-        msg: "Playbook ul se vede."
+tasks:
+  - name: add IP
+    debug:
+      msg: "Playbook ul se vede."
