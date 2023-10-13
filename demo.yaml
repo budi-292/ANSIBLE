@@ -4,5 +4,5 @@
       
   tasks:
     - name: add IP
-      ansible.builtin.debug:
+      debug:
         msg: "Playbook ul se vede."
